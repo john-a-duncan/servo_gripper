@@ -3,6 +3,7 @@
 ## Install rosserial_arduino
 sudo apt-get install ros-melodic-rosserial-arduino
 sudo apt-get install ros-melodic-rosserial
+sudo apt-get install ros-melodic-rosserial-python
 
 ## Create catkin workspace
 
@@ -12,3 +13,6 @@ cd ~/Arduino/libraries
 rosrun rosserial_arduino make_libraries.py .
 
 ## Load Sketch onto arduino uno using the IDE
+
+## Add yourself to user group
+sudo adduser my_user_name dialout
