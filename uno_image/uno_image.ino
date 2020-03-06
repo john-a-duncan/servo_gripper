@@ -43,7 +43,7 @@ void setup(){
   nh.initNode();
   nh.subscribe(sub);
   
-  servo.attach(9); //attach it to pin 9
+  servo.attach(13); //attach it to pin 13
 }
 
 void loop(){
